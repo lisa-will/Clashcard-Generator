@@ -8,8 +8,8 @@ var question1 = new Cloze()
 
 question1.clozeAnswer = "Bonjour";
 question1.text = " Good Morning! ";
-this.showQuestion = function(){
-    console.log(this.text);
+question1.showQuestion = function(){
+    console.log(question1.text);
 }
 this.showAnswer = function(){
     console.log(this.clozeAnswer);
@@ -20,7 +20,7 @@ var question2 = new Cloze()
 
 question2.clozeAnswer = "Salut";
 question2.text = " Hi!, Hey!, & Bye! ";
-this.showQuestion = function(){
+question2.showQuestion = function(){
     console.log(this.text);
 }
 this.showAnswer = function(){
